@@ -65,7 +65,7 @@ if xi > 0 and xi < 1:
 
 # In[critically damped system]
 
-if xi == 1:
+if round(xi,2) == 1.00:
     x = (x0+(x0_dot+wn*x0)*t)*exp(-wn*t)
     
 # In[overdamped system]
