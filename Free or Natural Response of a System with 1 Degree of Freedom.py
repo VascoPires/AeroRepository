@@ -30,14 +30,14 @@ from numpy import sinh
 # # Inputs:
 "Mechanical properties:"
 
-meq=0.03585
-keq=90.0917
-ceq=0.5032
+meq=0.03585 #Insert equivalent mass
+keq=90.0917 #Insert equivalent rigidity
+ceq=0.5032  #Insert equivalent damping
 
 
 "Initial Conditions (position and velocity)"
-x0=15*(math.pi/180)
-x0_dot=0
+x0=15*(math.pi/180) #Initial Position
+x0_dot=0 #Initial Velocity
 
 # In[frequency calc]:
     
