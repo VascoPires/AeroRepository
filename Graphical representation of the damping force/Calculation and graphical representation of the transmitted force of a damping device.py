@@ -42,8 +42,9 @@ fig.text(0.5, 0.9, r'$F_c = F_{eq} \Delta(\xi,\beta)$',
          ha ='left', va ='bottom',  
          alpha = 0.7)
 
-fig.text(0.9, 0.15, 'Made using python - Vasco Pires',  
-         fontsize = 12, color ='black', 
+# Add Text watermark 
+fig.text(0.88, 0.25, 'Made using python - Vasco Pires',  
+         fontsize = 10, color ='black', 
          ha ='right', va ='bottom',  
          alpha = 0.7)
 
