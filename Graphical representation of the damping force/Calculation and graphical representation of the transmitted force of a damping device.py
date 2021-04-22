@@ -29,7 +29,7 @@ init_xi = 0.14
 # Create the figure and the line that we will manipulate
 fig, ax = plt.subplots()
 line, = plt.plot(beta, delta(beta, init_xi), lw=2)
-ax.set_xlabel(r'$\beta=\frac{\omega}{\omega_m}$')
+ax.set_xlabel(r'$\beta=\frac{\omega}{\omega_n}$')
 ax.set_ylabel(r'$\Delta(\beta,\xi)$')
 
 axcolor = 'lightgoldenrodyellow'
