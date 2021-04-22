@@ -55,7 +55,7 @@ plt.subplots_adjust(left=0.25, bottom=0.25)
 axbeta = plt.axes([0.25, 0.1, 0.65, 0.03], facecolor=axcolor)
 xi_slider = Slider(
     ax=axbeta,
-    label=r'$\beta$',
+    label=r'$Damping \; Ratio \; (\xi)$',
     valmin=0.1,
     valmax=3,
     valinit=init_xi,
