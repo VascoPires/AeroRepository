@@ -47,7 +47,7 @@ ax.grid(color='black', lw = 0.25)
 plt.ylim([0,6])
 
 
-fig.text(0.265, 0.75, r'$\frac{F_T}{Yk} = \frac{\beta^2 \sqrt{1+(2 \xi \ beta)^2)}}{\sqrt{(1-\beta^2)^2+(2 \xi \beta)^2}}$',  
+fig.text(0.265, 0.75, r'$\frac{F_T}{Yk} = \frac{\beta^2 \sqrt{1+(2 \xi \beta)^2)}}{\sqrt{(1-\beta^2)^2+(2 \xi \beta)^2}}$',  
          fontsize = 13, color ='black', 
          ha ='left', va ='bottom',  
          alpha = 0.7)
