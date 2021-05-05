@@ -37,7 +37,7 @@ ax.margins(x=0)
 ax.grid(True)
 ax.grid(color='black', lw = 0.25)
 
-fig.text(0.5, 0.9, r'$F_c = F_{eq} \Delta(\xi,\beta)$',  
+fig.text(0.5, 0.9, r'$F_c = F_{eq}/a \Delta(\xi,\beta)$',  
          fontsize = 14, color ='black', 
          ha ='left', va ='bottom',  
          alpha = 0.7)
